@@ -1,6 +1,6 @@
 # Machine Learning Prediction of Absence of Formal Healthcare Seeking for Acutely Ill Children in Sub-Saharan Africa: A 38-Country IECV Study
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10892345.svg)](https://doi.org/10.5281/zenodo.10892345)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22981655.svg)](https://doi.org/10.5281/zenodo.22981655)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3118/)
 [![TRIPOD-AI Compliant](https://img.shields.io/badge/TRIPOD--AI-Compliant-success.svg)](https://www.tripod-statement.org/)
