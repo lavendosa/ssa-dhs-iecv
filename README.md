@@ -273,11 +273,12 @@ Testing was performed on an 8-core CPU node (Intel Xeon @ 2.50 GHz, 32 GB RAM):
 
 ## 8. Zenodo Archiving & Permanent DOI
 
-This repository is permanently linked to **Zenodo** through automated GitHub release webhooks:
-- **Repository URL:** [https://github.com/pediatric-ml-unmet-need/ssa-dhs-iecv](https://github.com/pediatric-ml-unmet-need/ssa-dhs-iecv)
-- **Permanent Zenodo DOI:** [10.5281/zenodo.10892345](https://doi.org/10.5281/zenodo.10892345)
-- **Archive Release Version:** `v1.0.0`
-- **Data Compliance:** The Zenodo archive strictly contains all code, documentation, schemas, and aggregated outputs; **zero restricted DHS microdata** are included in the archive.
+This repository is permanently linked to Zenodo through automated GitHub release webhooks:
+
+- **Repository URL:** https://github.com/lavendosa/ssa-dhs-iecv  
+- **Permanent Zenodo DOI:** [10.5281/zenodo.22981655](https://doi.org/10.5281/zenodo.22981655)  
+- **Archive Release Version:** v1.0.0.0  
+- **Data Compliance:** The Zenodo archive strictly contains all code, documentation, schemas, and aggregated outputs; zero restricted DHS microdata are included in the archive.
 
 ---
 
@@ -286,14 +287,14 @@ This repository is permanently linked to **Zenodo** through automated GitHub rel
 If you use this codebase, harmonization scripts, or modeling pipelines in your research, please cite:
 
 ```bibtex
-@software{pediatric_ml_unmet_need_2026,
-  author       = {{Pediatric ML Research Consortium}},
+@software{lavendosa_2026,
+  author       = {{Salomon IZERE}},
   title        = {{Machine learning prediction of absence of formal healthcare seeking for acutely ill children in sub-Saharan Africa: a 38-country internal-external cross-validation study}},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v1.0.0},
-  doi          = {10.5281/zenodo.10892345},
-  url          = {https://doi.org/10.5281/zenodo.10892345}
+  version      = {v1.0.0.0},
+  doi          = {10.5281/zenodo.22981655},
+  url          = {[https://doi.org/10.5281/zenodo.22981655](https://doi.org/10.5281/zenodo.22981655)}
 }
 ```
 
@@ -301,4 +302,6 @@ If you use this codebase, harmonization scripts, or modeling pipelines in your r
 
 ## 10. License
 
-This repository is licensed under the **MIT License**. See [`LICENSE`](file:///LICENSE) for full details.
+This repository is licensed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
+
+The Zenodo archive (DOI: [10.5281/zenodo.22981655](https://doi.org/10.5281/zenodo.22981655)) is released under the same MIT License for code and associated materials. No restricted DHS microdata are included in the archive.
