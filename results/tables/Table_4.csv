@@ -1,0 +1,18 @@
+Domain,Subgroup,N,Unmet_Events,Unmet_Rate_Pct,AUROC,AUPRC,Brier_Score
+Wealth Quintile,Poorest (Q1),31041,19261,62.1,0.746,0.843,0.194
+Wealth Quintile,Poorer (Q2),24893,14860,59.7,0.752,0.837,0.195
+Wealth Quintile,Middle (Q3),23112,13355,57.8,0.747,0.826,0.197
+Wealth Quintile,Richer (Q4),20802,12160,58.5,0.761,0.841,0.191
+Wealth Quintile,Richest (Q5),17091,9620,56.3,0.763,0.833,0.192
+Place of Residence,Urban,36612,21992,60.1,0.745,0.836,0.195
+Place of Residence,Rural,82298,48543,59.0,0.758,0.838,0.193
+Maternal Education,No formal education (0 yrs),41157,25376,61.7,0.734,0.829,0.199
+Maternal Education,Primary (1-6 yrs),33603,19514,58.1,0.748,0.826,0.197
+Maternal Education,Secondary or higher (7+ yrs),44123,25632,58.1,0.771,0.849,0.187
+Child Age Group,Infants (0-11 months),27091,15802,58.3,0.748,0.825,0.197
+Child Age Group,Toddlers (12-23 months),30017,16617,55.4,0.736,0.8,0.203
+Child Age Group,Young children (24-59 months),61802,38116,61.7,0.764,0.858,0.188
+Child Sex,Male,60613,35737,59.0,0.754,0.835,0.194
+Child Sex,Female,58297,34798,59.7,0.755,0.841,0.193
+Illness Presentation,Single illness,73036,49616,67.9,0.771,0.892,0.174
+Illness Presentation,Multimorbidity (>=2 illnesses),45874,20919,45.6,0.675,0.629,0.225

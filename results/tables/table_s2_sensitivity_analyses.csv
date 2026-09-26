@@ -1,0 +1,10 @@
+Sensitivity_Analysis,Cohort_N,Unmet_Events,Unmet_Pct,AUROC,AUPRC,Evaluation_Scheme
+SA-1: Fever-present cohort,66662,31509,47.3,0.664,0.632,5-Fold Stratified Out-of-Fold (OOF)
+SA-2: Diarrhea-present cohort,44889,23466,52.3,0.684,0.686,5-Fold Stratified Out-of-Fold (OOF)
+SA-3: Complete-case cohort (no missing predictors),92409,55174,59.7,0.756,0.84,5-Fold Stratified Out-of-Fold (OOF)
+SA-4: Survey-weighted performance (V005 weights),118910,70535,60.0,0.754,0.838,Survey-Weighted 5-Fold OOF
+SA-5: Model excluding features with >20% missingness,118910,70535,59.3,0.746,0.831,5-Fold Stratified Out-of-Fold (OOF)
+SA-6: Restricted to countries with >= 500 events,114943,68978,60.0,0.756,0.843,5-Fold Stratified Out-of-Fold (OOF)
+SA-7: Structural-missingness IECV (excl. 3 missing features),118910,70535,59.3,0.691,0.76,38-Country Leave-One-Country-Out IECV
+SA-8: Exclusion of isolated mild cough (5-Fold CV),99254,51487,51.9,0.673,0.680,5-Fold Stratified Out-of-Fold (OOF)
+SA-8b: Exclusion of isolated mild cough (38-Country IECV),99254,51487,51.9,0.612,0.598,38-Country Leave-One-Country-Out IECV

@@ -1,0 +1,33 @@
+﻿Variable_Name,Domain,DHS_Source,Type,Coding,Missing_Pct
+unmet_need,Outcome,"H12Z, H32Z",Binary,1 = No formal medical care sought; 0 = Formal care sought,0.0
+child_age_months,Child,B19 / B8,Continuous,0 to 59 months,0.0
+child_female,Child,B4,Binary,1 = Female; 0 = Male,0.0
+child_is_twin,Child,B0,Binary,1 = Twin / multiple birth; 0 = Singleton,0.0
+birth_order,Child,BORD,Discrete,1 to 16,0.0
+delivered_in_facility,Child / Maternal,M15,Binary,1 = Hospital/health center/clinic; 0 = Home/other,20.6
+maternal_age,Maternal,V012,Continuous,15 to 49 years,0.0
+maternal_edu_years,Maternal,V133,Continuous,Completed years of education (0–25),0.0
+marital_in_union,Maternal,V502,Binary,1 = Married / living with partner; 0 = Other,6.0
+mother_employed,Maternal,V714,Binary,1 = Currently working; 0 = Not working,6.0
+wealth_quintile,Household SES,V190,Ordinal,"1 = Poorest, 2 = Poorer, 3 = Middle, 4 = Richer, 5 = Richest",1.7
+wealth_score,Household SES,V191,Continuous,DHS standardized asset factor score,1.7
+residence_rural,Household SES,V025,Binary,1 = Rural; 0 = Urban,0.0
+household_size,Household,V136,Discrete,Total number of de jure household members,0.0
+u5_children_count,Household,V137,Discrete,Number of children aged 0–5 in household,0.0
+has_electricity,Household Assets,V119,Binary,1 = Yes; 0 = No,0.0
+has_radio,Household Assets,V120,Binary,1 = Yes; 0 = No,0.0
+has_television,Household Assets,V121,Binary,1 = Yes; 0 = No,0.0
+improved_water,WASH,V113,Binary,"1 = Piped, borehole, protected well/spring, rainwater, bottled; 0 = Unprotected/surface",0.0
+improved_toilet,WASH,V116,Binary,"1 = Flush, VIP latrine, pit latrine with slab; 0 = Open defecation/unimproved",0.0
+clean_cooking_fuel,WASH / Environment,V161,Binary,"1 = Electricity, LPG, natural gas, biogas; 0 = Wood, charcoal, coal, dung",1.5
+barrier_distance,Healthcare Access,V467B,Binary,1 = Distance to health facility is a big problem; 0 = Not a big problem,2.3
+barrier_money,Healthcare Access,V467C,Binary,1 = Getting money for treatment is a big problem; 0 = Not a big problem,2.3
+barrier_permission,Healthcare Access,V467D,Binary,1 = Getting permission to go for treatment is a big problem; 0 = Not a big problem,2.3
+barrier_alone,Healthcare Access,V467E,Binary,1 = Not wanting to go alone is a big problem; 0 = Not a big problem,2.3
+has_insurance,Healthcare Access,V481,Binary,1 = Covered by any health insurance; 0 = Not covered,2.3
+illness_fever,Clinical Symptom,H22,Binary,1 = Child had fever in last 2 weeks; 0 = No,0.0
+illness_diarrhea,Clinical Symptom,H11,Binary,1 = Child had diarrhea in last 2 weeks; 0 = No,0.0
+illness_cough,Clinical Symptom,H31,Binary,1 = Child had cough in last 2 weeks; 0 = No,0.0
+illness_ari_rapid_breath,Clinical Symptom,H31B,Binary,"1 = Short, rapid breaths during cough; 0 = No / No cough",0.0
+illness_ari_chest_problem,Clinical Symptom,H31C,Binary,1 = Difficulty breathing due to chest problem; 0 = Blocked nose only / None,0.0
+illness_count,Clinical Symptom,"H11, H22, H31",Discrete,"Sum of fever, diarrhea, and cough (1, 2, or 3)",0.0

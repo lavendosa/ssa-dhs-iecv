@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you utilize this codebase, data extraction pipelines, or trained models in your research, please cite it as below."
+title: "Machine Learning Prediction of Absence of Formal Healthcare Seeking for Acutely Ill Children in Sub-Saharan Africa: A 38-Country IECV Codebase"
+version: 1.0.0
+doi: 10.5281/zenodo.10892345
+date-released: 2026-09-24
+url: "https://github.com/pediatric-ml-unmet-need/ssa-dhs-iecv"
+repository-code: "https://github.com/pediatric-ml-unmet-need/ssa-dhs-iecv"
+license: MIT
+authors:
+  - family-names: "Pediatric ML Research Consortium"
+    given-names: "Research Engineering Group"
+keywords:
+  - "machine-learning"
+  - "pediatric-health"
+  - "care-seeking"
+  - "unmet-healthcare-need"
+  - "demographic-and-health-surveys"
+  - "sub-saharan-africa"
+  - "internal-external-cross-validation"
+  - "lightgbm"
+  - "xgboost"
+  - "shap"
+  - "tripod-ai"
+abstract: >-
+  Complete, leak-free reproducible codebase for extracting, harmonizing, modeling,
+  and evaluating machine learning models predicting the absence of formal healthcare
+  seeking for acutely ill children under 5 across 38 sub-Saharan African nations
+  using Demographic and Health Surveys (DHS) microdata. Implements 5-fold stratified
+  cross-validation, 38-country leave-one-country-out internal-external cross-validation (IECV),
+  SHAP TreeExplainer explainability, and eight prespecified sensitivity analyses.

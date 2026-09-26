@@ -1,0 +1,42 @@
+{
+  "project_title": "Machine learning prediction of absence of formal healthcare seeking for acutely ill children in sub-Saharan Africa: a 38-country internal-external cross-validation study",
+  "zenodo_doi": "10.5281/zenodo.10892345",
+  "github_repository": "https://github.com/pediatric-ml-unmet-need/ssa-dhs-iecv",
+  "master_random_seed": 42,
+  "computational_benchmarks": {
+    "reference_hardware": "Intel Xeon @ 2.50 GHz (8 cores, 16 threads), 32 GB RAM, SSD storage",
+    "supported_operating_systems": [
+      "Ubuntu 22.04 LTS (x86_64)",
+      "Debian 12 Bookworm (Docker)",
+      "Windows 11 (64-bit)",
+      "macOS 14 Sonoma (Apple Silicon / Intel)"
+    ],
+    "expected_runtimes_8core_cpu": {
+      "raw_data_extraction_and_harmonization": "3.5 - 5.0 minutes (for 38 raw SAV archives)",
+      "model_benchmark_5fold_cv": {
+        "XGBoost": "11.4 seconds",
+        "LightGBM": "13.9 seconds",
+        "HistGradientBoosting": "21.9 seconds",
+        "Random_Forest_500trees": "28.8 seconds",
+        "ElasticNet_Logistic": "124.5 seconds"
+      },
+      "iecv_38country_lightgbm": "4.2 - 6.0 minutes total (~6.5 - 9.5 seconds per held-out country)",
+      "shap_tree_explainer_10000_sample": "45 - 65 seconds",
+      "eight_sensitivity_analyses_total": "3.0 - 4.5 minutes",
+      "full_pipeline_end_to_end": "12 - 16 minutes"
+    },
+    "memory_footprint": {
+      "peak_ram_during_5fold_cv": "3.8 GB",
+      "peak_ram_during_iecv": "4.2 GB",
+      "disk_space_required": "~1.5 GB code and extracted parquet (raw DHS zips require ~4.5 GB)"
+    }
+  },
+  "random_seeds_policy": {
+    "data_splitting": 42,
+    "stratified_kfold": 42,
+    "iecv_country_loop": "Deterministic alphabetical sort by ISO-2 country code",
+    "shap_stratified_subsample": 42,
+    "synthetic_cohort_generation": 42,
+    "model_random_states": 42
+  }
+}

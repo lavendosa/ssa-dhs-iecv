@@ -1,0 +1,30 @@
+{
+  "master_seed": 42,
+  "description": "Fixed random seeds for full computational reproducibility",
+  "seeds": {
+    "data_splitting": 42,
+    "cross_validation": 42,
+    "stratified_kfold": 42,
+    "grouped_kfold": 42,
+    "nested_cv_outer": 42,
+    "nested_cv_inner": 42,
+    "logistic_regression": 42,
+    "random_forest": 42,
+    "gradient_boosting": 42,
+    "xgboost": 42,
+    "lightgbm": 42,
+    "histgradientboosting": 42,
+    "shap_sampling": 42,
+    "bootstrap_ci": 42,
+    "oversampling": 42,
+    "hyperparameter_search": 42,
+    "numpy": 42,
+    "python_random": 42
+  },
+  "notes": [
+    "All seeds set to 42 for consistency and reproducibility",
+    "Seeds applied before any data processing or model fitting",
+    "Recorded: 2026-09-21",
+    "Any non-deterministic step must be explicitly documented here with reason"
+  ]
+}

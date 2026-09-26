@@ -1,0 +1,20 @@
+Section,Item,Description,Compliance
+Title,1,Identify the study as developing and validating a multivariable prediction model using machine learning.,Reported in Title & Abstract
+Abstract,2,"Structured summary of background, objectives, study design, setting, participants, ML models, IECV validation, and findings.",Reported in Abstract
+Background,3a,Explain medical/public health context and rationale for predicting unmet pediatric healthcare need.,Reported in Introduction
+Background,3b,Specify the intended use and target population (children under 5 with acute illnesses in SSA).,Reported in Introduction
+Methods: Source of data,4a,"Describe data sources (38 national DHS Kids Recode surveys, dates, survey waves).",Reported in Methods
+Methods: Participants,5a,"Specify eligibility criteria (alive, aged 0–59m, qualifying illness in 2-week recall).",Reported in Methods & Figure 1
+Methods: Outcome,6a,Clearly define outcome (unmet need = no advice/treatment from formal provider).,Reported in Methods & Decision Log
+Methods: Predictors,7a,Clearly define all candidate predictors and blind handling of outcome.,Reported in Table S3 & Gate 4 Audit
+Methods: Sample size,8,"Explain sample size (118,910 participants, 70,535 events; ≥200 events per country for IECV).",Reported in Methods
+Methods: Missing data,9,"Describe how missing data were handled (native-NaN for GBDTs, median/indicator for ElasticNet).",Reported in Methods & Table S4
+Methods: Model development,10a,"Specify ML algorithms, hyperparameter tuning, and cross-validation strategy.",Reported in Table S5 & Gate 5 Report
+Methods: Model evaluation,10b,"Specify discrimination (AUROC, AUPRC) and calibration (slope, intercept, Brier, ECE).",Reported in Table 2 & Gate 6 Report
+Methods: IECV,10d,Detail the country-held-out internal-external cross-validation protocol.,Reported in Methods & Gate 6 Report
+Methods: Explainability,10e,"Describe XAI methodology (SHAP TreeExplainer, beeswarm, partial dependence).",Reported in Methods & Figure 4
+Results: Participants,13a,"Report participant flow, sample attrition, and baseline characteristics.",Reported in Table 1 & Figure 1
+Results: Performance,16,Report discrimination and calibration estimates with 95% confidence intervals.,"Reported in Tables 2, 3 & Figures 3, 5"
+Results: Subgroups,17,Report performance across pre-specified equity and demographic subgroups.,Reported in Table 4
+Discussion: Limitations,20,"Discuss study limitations (2-week parental recall, self-reported care-seeking).",Reported in Discussion
+Other: Code & Data,22,Provide reproducibility statement and links to analysis scripts.,Reported in Data Availability Statement

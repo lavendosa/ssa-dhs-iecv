@@ -1,0 +1,36 @@
+{
+  "title": "Machine Learning Prediction of Absence of Formal Healthcare Seeking for Acutely Ill Children in Sub-Saharan Africa: A 38-Country IECV Study",
+  "description": "Complete, reproducible codebase and documentation package for predicting the absence of formal healthcare seeking for acutely ill children under 5 across 38 sub-Saharan African countries using Demographic and Health Surveys (DHS) microdata. Includes data extraction scanners, harmonization protocols, 5 machine learning models (ElasticNet, Random Forest, HistGradientBoosting, XGBoost, LightGBM), 5-fold cross-validation, 38-country leave-one-country-out internal-external cross-validation (IECV), SHAP explainability, and eight prespecified sensitivity analyses.",
+  "creators": [
+    {
+      "name": "Pediatric ML Research Consortium",
+      "affiliation": "Sub-Saharan Africa Digital Child Health Working Group"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "doi": "10.5281/zenodo.10892345",
+  "keywords": [
+    "Machine Learning",
+    "Pediatrics",
+    "Child Health",
+    "Healthcare Access",
+    "Unmet Healthcare Need",
+    "Demographic and Health Surveys",
+    "Sub-Saharan Africa",
+    "Internal-External Cross-Validation",
+    "LightGBM",
+    "XGBoost",
+    "SHAP",
+    "TRIPOD-AI"
+  ],
+  "upload_type": "software",
+  "publication_date": "2026-09-24",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/pediatric-ml-unmet-need/ssa-dhs-iecv",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
